@@ -1,7 +1,14 @@
-*{
-    border: 2px solid green ;
-}
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500&display=swap');
+/* font-family: 'Fira Mono', monospace; */
 
+
+/* *{
+    border: 2px solid green ;
+    font-family: 'Fira Mono', monospace;   
+} */
+body{
+    background-color: rgb(202, 48, 202);
+}
 
 .container{
    
@@ -9,9 +16,90 @@
     justify-content: center;
 }
 
+
+
 .calculator{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 800px;
     width: 600px;
     margin: 80px;
+    background-color: orange;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #636363
+    
 }
+
+.inner-bound{
+    display: flex;
+    height:700px;
+    width: 550px;
+    flex-direction: column;
+    background-color: pink;
+    border-radius: 8px;
+   
+    
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-end;
+    box-shadow: 5px 10px 20px rgb(255, 151, 151) inset;
+    border: 3px solid rgb(14, 117, 69) ;
+    border-radius: 8px;
+}
+
+.input,
+.output{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 20px;
+    align-items: flex-end;
+}
+
+.input{
+    font-weight: bolder;
+    font-size: 32px;
+    flex: 2;
+}
+
+.output{
+    flex: 1;
+    font-size: 26px;
+}
+
+
+
+.operations{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+
+
+.row{
+    display: flex;
+    flex-grow: 1;
+}
+
+.num,
+.operator,
+.clear,
+.delete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.bottom{
+    border-bottom: 1px solid rgb(39, 39, 39);
+}
+
+/* .right{
+    border-right:1px solid rgb(39, 39, 39) ;
+} */
