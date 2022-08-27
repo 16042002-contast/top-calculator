@@ -1,0 +1,17 @@
+*{
+    border: 2px solid green ;
+}
+
+
+.container{
+   
+    display: flex;
+    justify-content: center;
+}
+
+.calculator{
+    
+    height: 800px;
+    width: 600px;
+    margin: 80px;
+}
