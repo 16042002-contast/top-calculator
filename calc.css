@@ -7,7 +7,11 @@
     font-family: 'Fira Mono', monospace;   
 } */
 body{
+    background-image: url(images/back.jpg);
     background-color: rgb(202, 48, 202);
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
 }
 
 .container{
@@ -47,9 +51,11 @@ body{
     flex-direction: column;
     flex: 1;
     justify-content: flex-end;
-    box-shadow: 5px 10px 20px rgb(255, 151, 151) inset;
+    box-shadow: 5px 10px 20px rgb(66, 66, 66) inset;
     border: 3px solid rgb(14, 117, 69) ;
     border-radius: 10px 10px 0px 0px;
+    background-color: black;
+    color: white;
 }
 
 .input,
@@ -97,7 +103,7 @@ body{
 }
 
 .bottom{
-    border-bottom: 1px solid rgb(39, 39, 39);
+    border-bottom: 0.5px solid rgb(68, 68, 68);
 }
 
 /* .right{
