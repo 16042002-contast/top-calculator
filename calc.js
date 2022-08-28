@@ -40,10 +40,12 @@ function displayInput(e) {
     if(e.target.className == 'num'){
         if(num1Str.length !== 0 && flag == 1){
             num2Str+=e.target.id;
+            
             // console.log(num2Str);
         }
         else{
         num1Str+=e.target.id;
+       
         }
         
         
@@ -51,7 +53,8 @@ function displayInput(e) {
 
     if(e.target.className == 'operator'){
         sign = e.target.id;
-        // console.log(sign);
+        
+        
         flag = 1;
     }
 
